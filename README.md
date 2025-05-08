@@ -21,3 +21,18 @@
 - [Comic-mono](https://github.com/dtinth/comic-mono-font) - [Site](https://dtinth.github.io/comic-mono-font/)  
 Repo  [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) & [powerline/fonts](https://github.com/powerline/fonts)  
 Site  [programmingfonts.org](https://www.programmingfonts.org/)  & [free-for.dev](https://free-for.dev/#/?id=font)
+
+### Using in VS Code
+To apply custom fonts in VS Code, press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, search for “Open User Settings (JSON)”, and add the following line:  
+`"editor.fontFamily": "'Fira Code', 'Monaspace Argon', 'Cascadia Code', monospace"`  
+This is a font fallback list, used in CSS and VS Code to define which fonts to try in order:
+
+1. Individual Font Names
+These are specific fonts. They must be installed on your system, or they won't apply:  
+'Fira Code' — a popular monospaced font with ligature support.  
+'Monaspace Argon' — part of the Monaspace family by GitHub, another modern mono font.  
+'Cascadia Code' — a monospaced font from Microsoft with ligature support, designed for coding.  
+Each is wrapped in quotes because the names contain spaces.
+
+2. Generic Font Family  
+`monospace` — this is a generic fallback. If none of the specific fonts are available, the system will use the default monospace font (e.g., Courier on many systems).
