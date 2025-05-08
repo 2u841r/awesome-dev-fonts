@@ -59,3 +59,15 @@ This ensures your editor always uses a monospaced font — even if some aren't i
 
 </details>
 
+
+<details>
+  <summary> Ligatures </summary>
+  I didn’t know how symbols like !== and => change their appearance. Since I didn’t even know the name of this feature (ligatures), it was hard to search for it.
+
+On Windows, VS Code’s default fonts like Consolas, Courier New, which already have ligature support. So you don’t have to install Fira Code. (You can if you want to, but it’s not mandatory — that’s what I’m saying.)  
+To on Ligatures- Press <kbd>Ctrl</kbd> / <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>  
+Search for “Open User Settings (JSON)”  
+Then just search for “ligatures” in json file, go to Edit in settings.json, and set:
+`"editor.fontLigatures": true`
+That’s it — you're done! (By default, it’s set to false.) 
+</details>
