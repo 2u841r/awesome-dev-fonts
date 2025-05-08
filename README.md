@@ -20,9 +20,12 @@
 - [fantasque-sans](https://github.com/belluzj/fantasque-sans) - [Site](https://fontlibrary.org/en/font/fantasque-sans-mono)
 - [Comic-mono](https://github.com/dtinth/comic-mono-font) - [Site](https://dtinth.github.io/comic-mono-font/)  
 Repo  [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) & [powerline/fonts](https://github.com/powerline/fonts)  
-Site  [programmingfonts.org](https://www.programmingfonts.org/)  & [free-for.dev](https://free-for.dev/#/?id=font)
+Site  [programmingfonts.org](https://www.programmingfonts.org/)  & [free-for.dev](https://free-for.dev/#/?id=font)  
 
-### Using Custom Fonts in VS Code
+
+<details>
+  <summary>Using Custom Fonts in VS Code</summary>
+  <h3> Using Custom Fonts in VS Code </h3>
 To apply custom fonts in Visual Studio Code, follow these steps:
 
 Press <kbd>Ctrl</kbd> / <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>  
@@ -37,7 +40,7 @@ My full font fallback list is:
 `editor.fontFamily": "'Fira Code', 'Monaspace Argon', 'Cascadia Code', monospace"`  
 > If I want to use Monaspace Argon without deleting Fira Code from my device and without removing it from the VS Code settings JSON file, I have to move Monaspace Argon to the beginning of the list.
 
-### How It Works
+<h3> How It Works </h3>
 This setting defines a font fallback list — similar to how CSS handles fonts. VS Code tries each font from left to right:
 
 #### Specific Font Names  
@@ -53,3 +56,6 @@ These must be installed on your system:
 Used only if none of the specified fonts are available.  
 
 This ensures your editor always uses a monospaced font — even if some aren't installed.
+
+</details>
+
