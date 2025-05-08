@@ -22,17 +22,34 @@
 Repo  [brabadu/awesome-fonts](https://github.com/brabadu/awesome-fonts) & [powerline/fonts](https://github.com/powerline/fonts)  
 Site  [programmingfonts.org](https://www.programmingfonts.org/)  & [free-for.dev](https://free-for.dev/#/?id=font)
 
-### Using in VS Code
-To apply custom fonts in VS Code, press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, search for “Open User Settings (JSON)”, and add the following line:  
-`"editor.fontFamily": "'Fira Code', 'Monaspace Argon', 'Cascadia Code', monospace"`  
-This is a font fallback list, used in CSS and VS Code to define which fonts to try in order:
+### Using Custom Fonts in VS Code
+To apply custom fonts in Visual Studio Code, follow these steps:
 
-1. Individual Font Names
-These are specific fonts. They must be installed on your system, or they won't apply:  
-'Fira Code' — a popular monospaced font with ligature support.  
-'Monaspace Argon' — part of the Monaspace family by GitHub, another modern mono font.  
-'Cascadia Code' — a monospaced font from Microsoft with ligature support, designed for coding.  
-Each is wrapped in quotes because the names contain spaces.
+Press <kbd>Ctrl</kbd> / <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>  
+Search for “Open User Settings (JSON)”  
+Add or update this line:  
+`"editor.fontFamily": "'Font Name', 'Backup Font', monospace"`  
 
-2. Generic Font Family  
-`monospace` — this is a generic fallback. If none of the specific fonts are available, the system will use the default monospace font (e.g., Courier on many systems).
+Example:
+I personally use Fira Code, so my basic setting looks like this:  
+`"editor.fontFamily": "'Fira Code', monospace"`  
+My full font fallback list is:  
+`editor.fontFamily": "'Fira Code', 'Monaspace Argon', 'Cascadia Code', monospace"`  
+> If I want to use Monaspace Argon without deleting Fira Code from my device and without removing it from the VS Code settings JSON file, I have to move Monaspace Argon to the beginning of the list.
+
+### How It Works
+This setting defines a font fallback list — similar to how CSS handles fonts. VS Code tries each font from left to right:
+
+#### Specific Font Names  
+These must be installed on your system:  
+- 'Fira Code' — a developer-friendly font with ligatures.  
+- 'Monaspace Argon' — part of GitHub’s modern monospaced font family.  
+- 'Cascadia Code' — Microsoft’s coding font with ligature support.  
+(Quotes are needed for names with spaces.)
+
+#### Generic Font Family
+
+`monospace` — a system default monospaced font (e.g., Courier).  
+Used only if none of the specified fonts are available.  
+
+This ensures your editor always uses a monospaced font — even if some aren't installed.
