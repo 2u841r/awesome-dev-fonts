@@ -15,6 +15,7 @@
 ## Special Mentions / by dev for dev
 <!-- | Fira Code       | ✅         | ✅           | [tonsky/FiraCode](https://github.com/tonsky/FiraCode)   | N/A |  -->
 - [Fira Code](https://github.com/tonsky/FiraCode)
+- [Hack](https://github.com/source-foundry/Hack) - [Site](https://sourcefoundry.org/hack/)
 - [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous/)
 - [Victor Mono](https://github.com/rubjo/victor-mono) -  [Site](https://rubjo.github.io/victor-mono/)
 - [fantasque-sans](https://github.com/belluzj/fantasque-sans) - [Site](https://fontlibrary.org/en/font/fantasque-sans-mono)
