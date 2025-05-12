@@ -72,3 +72,6 @@ Then just search for “ligatures” in json file, go to Edit in settings.json, 
 `"editor.fontLigatures": true`
 That’s it — you're done! (By default, it’s set to false.) 
 </details>
+
+
+![](https://repostats.deno.dev/2u841r/awesome-dev-fonts)
