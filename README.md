@@ -11,6 +11,7 @@
 | Source Code Pro | ❌         | ✅           | [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)     | [fonts.adobe.com](https://fonts.adobe.com/fonts/source-code-pro) |
 | SF Mono         | ❌         | ❌           | [unofficial?](https://github.com/supercomputra/SF-Mono-Font)                      | [apple.com](https://developer.apple.com/fonts/) | 
 | Gofont          | ?          | ?             | [golang/image](https://github.com/golang/image/tree/master/font/gofont/ttfs)      | [go.dev](https://go.dev/blog/go-fonts) | 
+| Google Sans Code | ❌        | ✅           | [googlefonts/googlesans-code](https://gitub.com/googlefonts/googlesans-code)      | [fonts.google.com](https://fonts.google.com/specimen/Google+Sans+Code) | 
 
 ## Special Mentions / by dev for dev
 <!-- | Fira Code       | ✅         | ✅           | [tonsky/FiraCode](https://github.com/tonsky/FiraCode)   | N/A |  -->
